@@ -7,8 +7,6 @@
  */
 public class TestTemp {
     public static void main(String[] args) {
-        String abc = "123456789";
-        abc = abc.substring(abc.length()-3);
-        System.out.println(abc);
+        System.out.println(Math.pow(2,8));
     }
 }

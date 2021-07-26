@@ -11,9 +11,9 @@ public class TenToBinary {
     public static void convert(int num){
         for (int i = 31; i >= 0; i--) {
             if((num & (1 << i)) == 0){  //任何数与1相与都等于原数
-                System.out.println("0");
+                System.out.print("0");
             }else {
-                System.out.println("1");
+                System.out.print("1");
             }
         }
     }
